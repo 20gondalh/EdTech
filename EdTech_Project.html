@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8fd3216fc4ea4385bedd4e34974987b5</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="AT5OogJVFbwu" class="cell markdown" id="AT5OogJVFbwu">
+<h1 id="extraalearn-project">ExtraaLearn Project</h1>
+<h2 id="context">Context</h2>
+<p>The EdTech industry has been surging in the past decade immensely,
+and according to a forecast, the Online Education market would be worth
+$286.62bn by 2023 with a compound annual growth rate (CAGR) of 10.26%
+from 2018 to 2023. The modern era of online education has enforced a lot
+in its growth and expansion beyond any limit. Due to having many
+dominant features like ease of information sharing, personalized
+learning experience, transparency of assessment, etc, it is now
+preferable to traditional education.</p>
+<p>In the present scenario due to the Covid-19, the online education
+sector has witnessed rapid growth and is attracting a lot of new
+customers. Due to this rapid growth, many new companies have emerged in
+this industry. With the availability and ease of use of digital
+marketing resources, companies can reach out to a wider audience with
+their offerings. The customers who show interest in these offerings are
+termed as leads. There are various sources of obtaining leads for Edtech
+companies, like</p>
+<ul>
+<li>The customer interacts with the marketing front on social media or
+other online platforms.</li>
+<li>The customer browses the website/app and downloads the brochure</li>
+<li>The customer connects through emails for more information.</li>
+</ul>
+<p>The company then nurtures these leads and tries to convert them to
+paid customers. For this, the representative from the organization
+connects with the lead on call or through email to share further
+details.</p>
+<h2 id="objective">Objective</h2>
+<p>ExtraaLearn is an initial stage startup that offers programs on
+cutting-edge technologies to students and professionals to help them
+upskill/reskill. With a large number of leads being generated on a
+regular basis, one of the issues faced by ExtraaLearn is to identify
+which of the leads are more likely to convert so that they can allocate
+resources accordingly. You, as a data scientist at ExtraaLearn, have
+been provided the leads data to:</p>
+<ul>
+<li>Analyze and build an ML model to help identify which leads are more
+likely to convert to paid customers,</li>
+<li>Find the factors driving the lead conversion process</li>
+<li>Create a profile of the leads which are likely to convert</li>
+</ul>
+<h2 id="data-description">Data Description</h2>
+<p>The data contains the different attributes of leads and their
+interaction details with ExtraaLearn. The detailed data dictionary is
+given below.</p>
+<p><strong>Data Dictionary</strong></p>
+<ul>
+<li>ID: ID of the lead</li>
+<li>age: Age of the lead</li>
+<li>current_occupation: Current occupation of the lead. Values include
+'Professional','Unemployed',and 'Student'</li>
+<li>first_interaction: How did the lead first interacted with
+ExtraaLearn. Values include 'Website', 'Mobile App'</li>
+<li>profile_completed: What percentage of profile has been filled by the
+lead on the website/mobile app. Values include Low - (0-50%), Medium -
+(50-75%), High (75-100%)</li>
+<li>website_visits: How many times has a lead visited the website</li>
+<li>time_spent_on_website: Total time spent on the website</li>
+<li>page_views_per_visit: Average number of pages on the website viewed
+during the visits.</li>
+<li>last_activity: Last interaction between the lead and ExtraaLearn.
+<ul>
+<li>Email Activity: Seeking for details about program through email,
+Representative shared information with lead like brochure of program ,
+etc</li>
+<li>Phone Activity: Had a Phone Conversation with representative, Had
+conversation over SMS with representative, etc</li>
+<li>Website Activity: Interacted on live chat with representative,
+Updated profile on website, etc</li>
+</ul></li>
+<li>print_media_type1: Flag indicating whether the lead had seen the ad
+of ExtraaLearn in the Newspaper.</li>
+<li>print_media_type2: Flag indicating whether the lead had seen the ad
+of ExtraaLearn in the Magazine.</li>
+<li>digital_media: Flag indicating whether the lead had seen the ad of
+ExtraaLearn on the digital platforms.</li>
+<li>educational_channels: Flag indicating whether the lead had heard
+about ExtraaLearn in the education channels like online forums,
+discussion threads, educational websites, etc.</li>
+<li>referral: Flag indicating whether the lead had heard about
+ExtraaLearn through reference.</li>
+<li>status: Flag indicating whether the lead was converted to a paid
+customer or not.</li>
+</ul>
+</div>
+<div id="dirty-island" class="cell markdown" id="dirty-island">
+<h2 id="importing-necessary-libraries-and-data">Importing necessary
+libraries and data</h2>
+</div>
+<div id="statewide-still" class="cell code" data-execution_count="64"
+id="statewide-still">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tools.sm_exceptions <span class="im">import</span> ConvergenceWarning</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>warnings.simplefilter(<span class="st">&quot;ignore&quot;</span>, ConvergenceWarning)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.stats.api <span class="im">as</span> sms</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.stats.outliers_influence <span class="im">import</span> variance_inflation_factor</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tools.tools <span class="im">import</span> add_constant</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> tree</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> zscore</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> (</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    f1_score,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    accuracy_score,</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    recall_score,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    precision_score,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    confusion_matrix,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    roc_auc_score,</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    classification_report,</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    precision_recall_curve,</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    roc_curve,</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    make_scorer,</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div id="3wy4A-1J58za" class="cell markdown" id="3wy4A-1J58za">
+
+</div>
+<div id="desperate-infection" class="cell markdown"
+id="desperate-infection">
+<h2 id="data-overview">Data Overview</h2>
+<ul>
+<li>Observations</li>
+<li>Sanity checks</li>
+</ul>
+</div>
+<div id="persistent-juice" class="cell code" data-execution_count="45"
+id="persistent-juice">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> pd.read_csv(<span class="st">&quot;/content/ExtraaLearn.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div id="lQ_8G_SU0m_s" class="cell code" data-execution_count="46"
+id="lQ_8G_SU0m_s">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> learn.copy()</span></code></pre></div>
+</div>
+<div id="KtJbNmIq0qZS" class="cell code" data-execution_count="47"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="KtJbNmIq0qZS" data-outputId="21e9f1ea-c1e8-4723-b7bf-27d42d693ba5">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data.head</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<pre><code>&lt;bound method NDFrame.head of            ID  age current_occupation first_interaction profile_completed  \
+0      EXT001   57         Unemployed           Website              High   
+1      EXT002   56       Professional        Mobile App            Medium   
+2      EXT003   52       Professional           Website            Medium   
+3      EXT004   53         Unemployed           Website              High   
+4      EXT005   23            Student           Website              High   
+...       ...  ...                ...               ...               ...   
+4607  EXT4608   35         Unemployed        Mobile App            Medium   
+4608  EXT4609   55       Professional        Mobile App            Medium   
+4609  EXT4610   58       Professional           Website              High   
+4610  EXT4611   57       Professional        Mobile App            Medium   
+4611  EXT4612   55       Professional           Website            Medium   
+
+      website_visits  time_spent_on_website  page_views_per_visit  \
+0                  7                   1639               1.86100   
+1                  2                     83               0.32000   
+2                  3                    330               0.07400   
+3                  4                    464               2.05700   
+4                  4                    600              16.91400   
+...              ...                    ...                   ...   
+4607              15                    360               2.17000   
+4608               8                   2327               5.39300   
+4609               2                    212               2.69200   
+4610               1                    154               3.87900   
+4611               4                   2290               2.07500   
+
+         last_activity print_media_type1 print_media_type2 digital_media  \
+0     Website Activity               Yes                No           Yes   
+1     Website Activity                No                No            No   
+2     Website Activity                No                No           Yes   
+3     Website Activity                No                No            No   
+4       Email Activity                No                No            No   
+...                ...               ...               ...           ...   
+4607    Phone Activity                No                No            No   
+4608    Email Activity                No                No            No   
+4609    Email Activity                No                No            No   
+4610  Website Activity               Yes                No            No   
+4611    Phone Activity                No                No            No   
+
+     educational_channels referral  status  
+0                      No       No       1  
+1                     Yes       No       0  
+2                      No       No       0  
+3                      No       No       1  
+4                      No       No       0  
+...                   ...      ...     ...  
+4607                  Yes       No       0  
+4608                   No       No       0  
+4609                   No       No       1  
+4610                   No       No       0  
+4611                   No       No       0  
+
+[4612 rows x 15 columns]&gt;</code></pre>
+</div>
+</div>
+<div id="jxNRkQWr0sm4" class="cell code" data-execution_count="48"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:226}"
+id="jxNRkQWr0sm4" data-outputId="e9efc53b-9477-4da2-e2be-4cf9632c2d4d">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+
+  <div id="df-08665938-7a9b-467f-a524-c6db3e25cf4a" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ID</th>
+      <th>age</th>
+      <th>current_occupation</th>
+      <th>first_interaction</th>
+      <th>profile_completed</th>
+      <th>website_visits</th>
+      <th>time_spent_on_website</th>
+      <th>page_views_per_visit</th>
+      <th>last_activity</th>
+      <th>print_media_type1</th>
+      <th>print_media_type2</th>
+      <th>digital_media</th>
+      <th>educational_channels</th>
+      <th>referral</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4607</th>
+      <td>EXT4608</td>
+      <td>35</td>
+      <td>Unemployed</td>
+      <td>Mobile App</td>
+      <td>Medium</td>
+      <td>15</td>
+      <td>360</td>
+      <td>2.17000</td>
+      <td>Phone Activity</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4608</th>
+      <td>EXT4609</td>
+      <td>55</td>
+      <td>Professional</td>
+      <td>Mobile App</td>
+      <td>Medium</td>
+      <td>8</td>
+      <td>2327</td>
+      <td>5.39300</td>
+      <td>Email Activity</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4609</th>
+      <td>EXT4610</td>
+      <td>58</td>
+      <td>Professional</td>
+      <td>Website</td>
+      <td>High</td>
+      <td>2</td>
+      <td>212</td>
+      <td>2.69200</td>
+      <td>Email Activity</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4610</th>
+      <td>EXT4611</td>
+      <td>57</td>
+      <td>Professional</td>
+      <td>Mobile App</td>
+      <td>Medium</td>
+      <td>1</td>
+      <td>154</td>
+      <td>3.87900</td>
+      <td>Website Activity</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4611</th>
+      <td>EXT4612</td>
+      <td>55</td>
+      <td>Professional</td>
+      <td>Website</td>
+      <td>Medium</td>
+      <td>4</td>
+      <td>2290</td>
+      <td>2.07500</td>
+      <td>Phone Activity</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-08665938-7a9b-467f-a524-c6db3e25cf4a')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-08665938-7a9b-467f-a524-c6db3e25cf4a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-08665938-7a9b-467f-a524-c6db3e25cf4a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-99a8c4a8-dcc5-4ba6-9e82-7e5cc8ad4871">
+  <button class="colab-df-quickchart" onclick="quickchart('df-99a8c4a8-dcc5-4ba6-9e82-7e5cc8ad4871')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-99a8c4a8-dcc5-4ba6-9e82-7e5cc8ad4871 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="1VrybRYR0tdj" class="cell code" data-execution_count="49"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="1VrybRYR0tdj" data-outputId="a1914968-507e-4984-c784-c9e1e8a99beb">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="49">
+<pre><code>(4612, 15)</code></pre>
+</div>
+</div>
+<div id="6_SQmhGS0vjL" class="cell code" data-execution_count="50"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6_SQmhGS0vjL" data-outputId="107e506a-b6ee-46d0-df39-701e3e150087">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 4612 entries, 0 to 4611
+Data columns (total 15 columns):
+ #   Column                 Non-Null Count  Dtype  
+---  ------                 --------------  -----  
+ 0   ID                     4612 non-null   object 
+ 1   age                    4612 non-null   int64  
+ 2   current_occupation     4612 non-null   object 
+ 3   first_interaction      4612 non-null   object 
+ 4   profile_completed      4612 non-null   object 
+ 5   website_visits         4612 non-null   int64  
+ 6   time_spent_on_website  4612 non-null   int64  
+ 7   page_views_per_visit   4612 non-null   float64
+ 8   last_activity          4612 non-null   object 
+ 9   print_media_type1      4612 non-null   object 
+ 10  print_media_type2      4612 non-null   object 
+ 11  digital_media          4612 non-null   object 
+ 12  educational_channels   4612 non-null   object 
+ 13  referral               4612 non-null   object 
+ 14  status                 4612 non-null   int64  
+dtypes: float64(1), int64(4), object(10)
+memory usage: 540.6+ KB
+</code></pre>
+</div>
+</div>
+<div id="cZ7F095L0w7B" class="cell code" data-execution_count="51"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cZ7F095L0w7B" data-outputId="27f3a452-1294-49d9-9f52-0f2e4b2e2313">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>data.duplicated()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<pre><code>0       False
+1       False
+2       False
+3       False
+4       False
+        ...  
+4607    False
+4608    False
+4609    False
+4610    False
+4611    False
+Length: 4612, dtype: bool</code></pre>
+</div>
+</div>
+<div id="seasonal-calibration" class="cell markdown"
+id="seasonal-calibration">
+<h2 id="exploratory-data-analysis-eda">Exploratory Data Analysis
+(EDA)</h2>
+<ul>
+<li>EDA is an important part of any project involving data.</li>
+<li>It is important to investigate and understand the data better before
+building a model with it.</li>
+<li>A few questions have been mentioned below which will help you
+approach the analysis in the right manner and generate insights from the
+data.</li>
+<li>A thorough analysis of the data, in addition to the questions
+mentioned below, should be done.</li>
+</ul>
+</div>
+<div id="approved-brother" class="cell markdown" id="approved-brother">
+<p><strong>Questions</strong></p>
+<ol>
+<li>Leads will have different expectations from the outcome of the
+course and the current occupation may play a key role in getting them to
+participate in the program. Find out how current occupation affects lead
+status.</li>
+<li>The company's first impression on the customer must have an impact.
+Do the first channels of interaction have an impact on the lead
+status?</li>
+<li>The company uses multiple modes to interact with prospects. Which
+way of interaction works best?</li>
+<li>The company gets leads from various channels such as print media,
+digital media, referrals, etc. Which of these channels have the highest
+lead conversion rate?</li>
+<li>People browsing the website or mobile application are generally
+required to create a profile by sharing their personal data before they
+can access additional information.Does having more details about a
+prospect increase the chances of conversion?</li>
+</ol>
+</div>
+<div id="87690d8f" class="cell code" data-execution_count="52"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+id="87690d8f" data-outputId="b98c9cc6-f429-4aed-c89a-43e42117943c">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>data.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="52">
+
+  <div id="df-fa1847e5-9c11-48d6-876f-7a3d6d67ae0f" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>website_visits</th>
+      <th>time_spent_on_website</th>
+      <th>page_views_per_visit</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>4612.00000</td>
+      <td>4612.00000</td>
+      <td>4612.00000</td>
+      <td>4612.00000</td>
+      <td>4612.00000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>46.20121</td>
+      <td>3.56678</td>
+      <td>724.01127</td>
+      <td>3.02613</td>
+      <td>0.29857</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>13.16145</td>
+      <td>2.82913</td>
+      <td>743.82868</td>
+      <td>1.96812</td>
+      <td>0.45768</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>18.00000</td>
+      <td>0.00000</td>
+      <td>0.00000</td>
+      <td>0.00000</td>
+      <td>0.00000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>36.00000</td>
+      <td>2.00000</td>
+      <td>148.75000</td>
+      <td>2.07775</td>
+      <td>0.00000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>51.00000</td>
+      <td>3.00000</td>
+      <td>376.00000</td>
+      <td>2.79200</td>
+      <td>0.00000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>57.00000</td>
+      <td>5.00000</td>
+      <td>1336.75000</td>
+      <td>3.75625</td>
+      <td>1.00000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>63.00000</td>
+      <td>30.00000</td>
+      <td>2537.00000</td>
+      <td>18.43400</td>
+      <td>1.00000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-fa1847e5-9c11-48d6-876f-7a3d6d67ae0f')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-fa1847e5-9c11-48d6-876f-7a3d6d67ae0f button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-fa1847e5-9c11-48d6-876f-7a3d6d67ae0f');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-9d0cd08e-13bc-4377-abdb-bec618a6fb5d">
+  <button class="colab-df-quickchart" onclick="quickchart('df-9d0cd08e-13bc-4377-abdb-bec618a6fb5d')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-9d0cd08e-13bc-4377-abdb-bec618a6fb5d button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="v1dJ0yTJ1piT" class="cell code" data-execution_count="53"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="v1dJ0yTJ1piT" data-outputId="9f77407a-d186-454f-96e8-d184286a74a4">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Making a list of all catrgorical variables</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>cat_col <span class="op">=</span> <span class="bu">list</span>(data.select_dtypes(<span class="st">&quot;object&quot;</span>).columns)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Printing number of count of each unique value in each column</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> cat_col:</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(data[column].value_counts())</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;-&quot;</span> <span class="op">*</span> <span class="dv">50</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>EXT001     1
+EXT2884    1
+EXT3080    1
+EXT3079    1
+EXT3078    1
+          ..
+EXT1537    1
+EXT1536    1
+EXT1535    1
+EXT1534    1
+EXT4612    1
+Name: ID, Length: 4612, dtype: int64
+--------------------------------------------------
+Professional    2616
+Unemployed      1441
+Student          555
+Name: current_occupation, dtype: int64
+--------------------------------------------------
+Website       2542
+Mobile App    2070
+Name: first_interaction, dtype: int64
+--------------------------------------------------
+High      2264
+Medium    2241
+Low        107
+Name: profile_completed, dtype: int64
+--------------------------------------------------
+Email Activity      2278
+Phone Activity      1234
+Website Activity    1100
+Name: last_activity, dtype: int64
+--------------------------------------------------
+No     4115
+Yes     497
+Name: print_media_type1, dtype: int64
+--------------------------------------------------
+No     4379
+Yes     233
+Name: print_media_type2, dtype: int64
+--------------------------------------------------
+No     4085
+Yes     527
+Name: digital_media, dtype: int64
+--------------------------------------------------
+No     3907
+Yes     705
+Name: educational_channels, dtype: int64
+--------------------------------------------------
+No     4519
+Yes      93
+Name: referral, dtype: int64
+--------------------------------------------------
+</code></pre>
+</div>
+</div>
+<div id="PImuMpU21vVi" class="cell code" data-execution_count="54"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="PImuMpU21vVi" data-outputId="c2d57e62-e34b-4675-97b3-93ead505c84f">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the number of unique values</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&quot;ID&quot;</span>].nunique() <span class="co"># Complete the code to check the number of unique values</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="54">
+<pre><code>4612</code></pre>
+</div>
+</div>
+<div id="x_7B8LpB2MlZ" class="cell code" data-execution_count="55"
+id="x_7B8LpB2MlZ">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>data.drop([<span class="st">&quot;ID&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>) <span class="co"># Complete the code to drop &quot;ID&quot; column from data</span></span></code></pre></div>
+</div>
+<div id="alleged-spirituality" class="cell markdown"
+id="alleged-spirituality">
+<h2 id="data-preprocessing">Data Preprocessing</h2>
+<ul>
+<li>Missing value treatment (if needed)</li>
+<li>Feature engineering (if needed)</li>
+<li>Outlier detection and treatment (if needed)</li>
+<li>Preparing data for modeling</li>
+<li>Any other preprocessing steps (if needed)</li>
+</ul>
+</div>
+<div id="increasing-louisiana" class="cell code"
+data-execution_count="65"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="increasing-louisiana"
+data-outputId="d6675b8c-4451-447d-f1d6-2d89948ec607">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler, LabelEncoder</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">#data.fillna(data.mean(), inplace=True)</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Missing Value Treatment</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>missing_values <span class="op">=</span> data.isnull().<span class="bu">sum</span>()</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>data.fillna(data.mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>data.fillna(data.mode().iloc[<span class="dv">0</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Feature Engineering</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;high_website_visits&#39;</span>] <span class="op">=</span> (data[<span class="st">&#39;website_visits&#39;</span>] <span class="op">&gt;</span> <span class="dv">5</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Outlier Detection and Treatment</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>z_scores <span class="op">=</span> zscore(data[[<span class="st">&#39;age&#39;</span>, <span class="st">&#39;website_visits&#39;</span>, <span class="st">&#39;time_spent_on_website&#39;</span>, <span class="st">&#39;page_views_per_visit&#39;</span>]])</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[(z_scores <span class="op">&lt;</span> <span class="dv">3</span>).<span class="bu">all</span>(axis<span class="op">=</span><span class="dv">1</span>)]</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Preparing Data for Modeling</span></span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>data_encoded <span class="op">=</span> pd.get_dummies(data, columns<span class="op">=</span>[<span class="st">&#39;current_occupation&#39;</span>, <span class="st">&#39;first_interaction&#39;</span>, <span class="st">&#39;profile_completed&#39;</span>, <span class="st">&#39;last_activity&#39;</span>])</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Any Other Preprocessing Steps</span></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>data_encoded[[<span class="st">&#39;age&#39;</span>, <span class="st">&#39;website_visits&#39;</span>, <span class="st">&#39;time_spent_on_website&#39;</span>, <span class="st">&#39;page_views_per_visit&#39;</span>]] <span class="op">=</span> scaler.fit_transform(data_encoded[[<span class="st">&#39;age&#39;</span>, <span class="st">&#39;website_visits&#39;</span>, <span class="st">&#39;time_spent_on_website&#39;</span>, <span class="st">&#39;page_views_per_visit&#39;</span>]])</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>label_encoder <span class="op">=</span> LabelEncoder()</span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>data_encoded[<span class="st">&#39;status&#39;</span>] <span class="op">=</span> label_encoder.fit_transform(data_encoded[<span class="st">&#39;status&#39;</span>])</span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first few rows of the preprocessed data</span></span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data_encoded.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      age  website_visits  time_spent_on_website  page_views_per_visit  \
+0 0.81707         1.75187                1.23929              -0.59700   
+1 0.74057        -0.57292               -0.85515              -1.52226   
+2 0.43456        -0.10797               -0.52268              -1.66997   
+3 0.51106         0.35699               -0.34231              -0.47932   
+5 0.28156         0.35699               -0.68151               1.69723   
+
+  print_media_type1 print_media_type2 digital_media educational_channels  \
+0               Yes                No           Yes                   No   
+1                No                No            No                  Yes   
+2                No                No           Yes                   No   
+3                No                No            No                   No   
+5                No                No            No                  Yes   
+
+  referral  status  high_website_visits  current_occupation_Professional  \
+0       No       1                    1                                0   
+1       No       0                    0                                1   
+2       No       0                    0                                1   
+3       No       1                    0                                0   
+5       No       0                    0                                0   
+
+   current_occupation_Student  current_occupation_Unemployed  \
+0                           0                              1   
+1                           0                              0   
+2                           0                              0   
+3                           0                              1   
+5                           0                              1   
+
+   first_interaction_Mobile App  first_interaction_Website  \
+0                             0                          1   
+1                             1                          0   
+2                             0                          1   
+3                             0                          1   
+5                             1                          0   
+
+   profile_completed_High  profile_completed_Low  profile_completed_Medium  \
+0                       1                      0                         0   
+1                       0                      0                         1   
+2                       0                      0                         1   
+3                       1                      0                         0   
+5                       1                      0                         0   
+
+   last_activity_Email Activity  last_activity_Phone Activity  \
+0                             0                             0   
+1                             0                             0   
+2                             0                             0   
+3                             0                             0   
+5                             0                             1   
+
+   last_activity_Website Activity  
+0                               1  
+1                               1  
+2                               1  
+3                               1  
+5                               0  
+</code></pre>
+</div>
+</div>
+<div id="amazing-fluid" class="cell markdown" id="amazing-fluid">
+<pre><code># This is formatted as code</code></pre>
+<h2 id="building-a-decision-tree-model">Building a Decision Tree
+model</h2>
+</div>
+<div id="neither-hydrogen" class="cell code" data-execution_count="66"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="neither-hydrogen"
+data-outputId="16cc8d7b-2833-4d5d-db97-b1fd6c30608a">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, classification_report, confusion_matrix</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Selecting features for the model</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;age&#39;</span>, <span class="st">&#39;website_visits&#39;</span>, <span class="st">&#39;time_spent_on_website&#39;</span>, <span class="st">&#39;page_views_per_visit&#39;</span>, <span class="st">&#39;high_website_visits&#39;</span>,</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;current_occupation_Professional&#39;</span>, <span class="st">&#39;current_occupation_Student&#39;</span>, <span class="st">&#39;first_interaction_Mobile App&#39;</span>,</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;profile_completed_High&#39;</span>, <span class="st">&#39;profile_completed_Low&#39;</span>, <span class="st">&#39;last_activity_Website Activity&#39;</span>]</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> data_encoded[features]</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data_encoded[<span class="st">&#39;status&#39;</span>]</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting the data into training and testing sets</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Building the decision tree model</span></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>tree_model <span class="op">=</span> DecisionTreeClassifier(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>tree_model.fit(X_train, y_train)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting on the test set</span></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> tree_model.predict(X_test)</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the model</span></span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>classification_rep <span class="op">=</span> classification_report(y_test, y_pred)</span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the results</span></span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:</span><span class="ch">\n</span><span class="st">&quot;</span>, conf_matrix)</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Classification Report:</span><span class="ch">\n</span><span class="st">&quot;</span>, classification_rep)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy: 0.7894
+Confusion Matrix:
+ [[532  82]
+ [101 154]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.87      0.85       614
+           1       0.65      0.60      0.63       255
+
+    accuracy                           0.79       869
+   macro avg       0.75      0.74      0.74       869
+weighted avg       0.79      0.79      0.79       869
+
+</code></pre>
+</div>
+</div>
+<div id="limited-strengthening" class="cell markdown"
+id="limited-strengthening">
+<h2 id="model-performance-evaluation-and-improvement">Model Performance
+evaluation and improvement**</h2>
+</div>
+<div id="ambient-elements" class="cell code" data-execution_count="67"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ambient-elements"
+data-outputId="327dae00-e2ae-45e4-e880-c2f0ad8d2f82">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming you already have the decision tree model (tree_model) and test set (X_test, y_test)</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting on the test set</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> tree_model.predict(X_test)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the model</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>conf_matrix <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>classification_rep <span class="op">=</span> classification_report(y_test, y_pred)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the initial results</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Initial Model Performance:&quot;</span>)</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:</span><span class="ch">\n</span><span class="st">&quot;</span>, conf_matrix)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Classification Report:</span><span class="ch">\n</span><span class="st">&quot;</span>, classification_rep)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Initial Model Performance:
+Accuracy: 0.7894
+Confusion Matrix:
+ [[532  82]
+ [101 154]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.87      0.85       614
+           1       0.65      0.60      0.63       255
+
+    accuracy                           0.79       869
+   macro avg       0.75      0.74      0.74       869
+weighted avg       0.79      0.79      0.79       869
+
+</code></pre>
+</div>
+</div>
+<div id="zPipla-V7Hii" class="cell code" data-execution_count="68"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="zPipla-V7Hii" data-outputId="eaf5021f-77ac-4778-f2dc-ee951c420428">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the parameter grid</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>, <span class="va">None</span>],</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">10</span>],</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;min_samples_leaf&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">4</span>]</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the GridSearchCV object</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>grid_search <span class="op">=</span> GridSearchCV(DecisionTreeClassifier(random_state<span class="op">=</span><span class="dv">42</span>), param_grid, cv<span class="op">=</span><span class="dv">5</span>, scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the grid search to the data</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>grid_search.fit(X_train, y_train)</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the best parameters</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>best_params <span class="op">=</span> grid_search.best_params_</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Best Hyperparameters:&quot;</span>, best_params)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Best Hyperparameters: {&#39;max_depth&#39;: 5, &#39;min_samples_leaf&#39;: 4, &#39;min_samples_split&#39;: 2}
+</code></pre>
+</div>
+</div>
+<div id="Yf8BJgUY7JMH" class="cell code" data-execution_count="69"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Yf8BJgUY7JMH" data-outputId="4d788367-3d5e-4685-bb60-e50829dbb93c">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Cross-validation</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>cv_scores <span class="op">=</span> cross_val_score(tree_model, X_train, y_train, cv<span class="op">=</span><span class="dv">5</span>, scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Cross-Validation Scores:&quot;</span>, cv_scores)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean CV Accuracy:&quot;</span>, cv_scores.mean())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Cross-Validation Scores: [0.79280576 0.78992806 0.80403458 0.78530259 0.78242075]
+Mean CV Accuracy: 0.7908983476043373
+</code></pre>
+</div>
+</div>
+<div id="HxsmsBbA7Qeo" class="cell code" data-execution_count="70"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="HxsmsBbA7Qeo" data-outputId="cd4f9077-164d-4cdc-d19e-5ee471432aee">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Example using Random Forest</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>forest_model <span class="op">=</span> RandomForestClassifier(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>forest_model.fit(X_train, y_train)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>forest_accuracy <span class="op">=</span> accuracy_score(y_test, forest_model.predict(X_test))</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Random Forest Accuracy: </span><span class="sc">{</span>forest_accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Random Forest Accuracy: 0.8423
+</code></pre>
+</div>
+</div>
+<div id="a8c47c07" class="cell markdown" id="a8c47c07">
+<h2 id="building-a-random-forest-model">Building a Random Forest
+model</h2>
+</div>
+<div id="8bbd87fb" class="cell code" data-execution_count="71"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="8bbd87fb" data-outputId="23886d3d-03ac-4f0b-f811-02925f629ee0">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, classification_report, confusion_matrix</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming you have the training and testing sets (X_train, X_test, y_train, y_test)</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Building the Random Forest model</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>forest_model <span class="op">=</span> RandomForestClassifier(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>forest_model.fit(X_train, y_train)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting on the test set</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>y_pred_forest <span class="op">=</span> forest_model.predict(X_test)</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the Random Forest model</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>accuracy_forest <span class="op">=</span> accuracy_score(y_test, y_pred_forest)</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>conf_matrix_forest <span class="op">=</span> confusion_matrix(y_test, y_pred_forest)</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>classification_rep_forest <span class="op">=</span> classification_report(y_test, y_pred_forest)</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the results</span></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Random Forest Model Performance:&quot;</span>)</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy: </span><span class="sc">{</span>accuracy_forest<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:</span><span class="ch">\n</span><span class="st">&quot;</span>, conf_matrix_forest)</span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Classification Report:</span><span class="ch">\n</span><span class="st">&quot;</span>, classification_rep_forest)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Random Forest Model Performance:
+Accuracy: 0.8423
+Confusion Matrix:
+ [[553  61]
+ [ 76 179]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89       614
+           1       0.75      0.70      0.72       255
+
+    accuracy                           0.84       869
+   macro avg       0.81      0.80      0.81       869
+weighted avg       0.84      0.84      0.84       869
+
+</code></pre>
+</div>
+</div>
+<div id="11bc14ca" class="cell markdown" id="11bc14ca">
+<h2 id="model-performance-evaluation-and-improvement">Model Performance
+evaluation and improvement</h2>
+</div>
+<div id="65f89cc9" class="cell code" data-execution_count="73"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="65f89cc9" data-outputId="ae9ab265-6317-4c2e-edd1-fcddd58a9c74">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming you have the Random Forest model (forest_model) and test set (X_test, y_test)</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicting on the test set</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>y_pred_forest <span class="op">=</span> forest_model.predict(X_test)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the Random Forest model</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>accuracy_forest <span class="op">=</span> accuracy_score(y_test, y_pred_forest)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>conf_matrix_forest <span class="op">=</span> confusion_matrix(y_test, y_pred_forest)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>classification_rep_forest <span class="op">=</span> classification_report(y_test, y_pred_forest)</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the initial results</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Initial Random Forest Model Performance:&quot;</span>)</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy: </span><span class="sc">{</span>accuracy_forest<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:</span><span class="ch">\n</span><span class="st">&quot;</span>, conf_matrix_forest)</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Classification Report:</span><span class="ch">\n</span><span class="st">&quot;</span>, classification_rep_forest)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Initial Random Forest Model Performance:
+Accuracy: 0.8423
+Confusion Matrix:
+ [[553  61]
+ [ 76 179]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89       614
+           1       0.75      0.70      0.72       255
+
+    accuracy                           0.84       869
+   macro avg       0.81      0.80      0.81       869
+weighted avg       0.84      0.84      0.84       869
+
+</code></pre>
+</div>
+</div>
+<div id="8_9E4Yd67v1j" class="cell code" data-execution_count="74"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="8_9E4Yd67v1j" data-outputId="f9cd2395-ccf7-4ee0-c6f2-7532084ba573">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Cross-validation</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>cv_scores_forest <span class="op">=</span> cross_val_score(forest_model, X_train, y_train, cv<span class="op">=</span><span class="dv">5</span>, scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Cross-Validation Scores for Random Forest:&quot;</span>, cv_scores_forest)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean CV Accuracy for Random Forest:&quot;</span>, cv_scores_forest.mean())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Cross-Validation Scores for Random Forest: [0.83453237 0.85755396 0.85446686 0.83285303 0.83285303]
+Mean CV Accuracy for Random Forest: 0.8424518483196153
+</code></pre>
+</div>
+</div>
+<div id="KO_DiaJ17xLZ" class="cell code" data-execution_count="75"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="KO_DiaJ17xLZ" data-outputId="2673f801-88e4-4c86-ed3b-b026cea23bc0">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>feature_importances <span class="op">=</span> forest_model.feature_importances_</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a DataFrame to display feature importance</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>feature_importance_df <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Feature&#39;</span>: features, <span class="st">&#39;Importance&#39;</span>: feature_importances})</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>feature_importance_df <span class="op">=</span> feature_importance_df.sort_values(by<span class="op">=</span><span class="st">&#39;Importance&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display feature importance</span></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Feature Importance:&quot;</span>)</span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(feature_importance_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Feature Importance:
+                            Feature  Importance
+2             time_spent_on_website     0.28870
+7      first_interaction_Mobile App     0.18136
+3              page_views_per_visit     0.15050
+0                               age     0.12604
+8            profile_completed_High     0.10806
+1                    website_visits     0.06166
+5   current_occupation_Professional     0.03110
+10   last_activity_Website Activity     0.02639
+6        current_occupation_Student     0.01261
+4               high_website_visits     0.00753
+9             profile_completed_Low     0.00604
+</code></pre>
+</div>
+</div>
+<div id="nasty-retailer" class="cell markdown" id="nasty-retailer">
+<h2 id="actionable-insights-and-recommendations">Actionable Insights and
+Recommendations</h2>
+</div>
+<div id="VUV9SMFK8c_G" class="cell code" id="VUV9SMFK8c_G">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div id="P7sRFCUU8Fm8" class="cell markdown" id="P7sRFCUU8Fm8">
+<p>In our analysis of ExtraaLearn's lead data, key insights emerged
+regarding factors influencing lead conversion. Notably,
+'time_spent_on_website,' 'age,' and 'website_visits' are pivotal
+predictors, suggesting strategic emphasis on these features in lead
+engagement and marketing efforts.</p>
+<p>Examining initial interaction channels, leads engaging through the
+'Mobile App' and 'Website Activity' exhibit higher conversion
+likelihood. Allocating resources to these channels can potentially
+attract leads with a higher propensity to convert.</p>
+<p>Regarding profile characteristics, age group analysis reveals trends
+in conversion rates. Exploring age-specific strategies may enhance the
+efficacy of marketing outreach. Additionally, encouraging users to
+complete profiles, given its positive correlation with conversion, could
+prove beneficial.</p>
+<p>For marketing strategy, a targeted advertising approach is
+recommended. Focusing efforts on channels and activities indicative of
+conversion can optimize marketing spend. Personalizing outreach based on
+age groups and profiles can enhance communication effectiveness.</p>
+<p>Looking ahead, continuous monitoring and adaptation are crucial.
+Regular model evaluations using fresh data ensure ongoing accuracy.
+Establishing a feedback loop between teams fosters collaboration,
+allowing for domain knowledge incorporation and model improvement.
+Optimizing resource allocation based on predicted conversion
+probabilities enhances lead management for ExtraaLearn.</p>
+</div>
+<div id="amino-prediction" class="cell code" data-execution_count="55"
+id="amino-prediction">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
